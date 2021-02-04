@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Introduction to Containers and Docker",
-    subtitle: "🐳",
+    title: "Docker",
+    subtitle: "",
     description: "A complete intro to Linux containers for developers",
     keywords: [
       "linux",
