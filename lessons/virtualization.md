@@ -44,5 +44,5 @@ A Type 2 Hypervisor runs as a software layer on an operating system, like other 
 
 The underlying physical machine is called "Host Machine" and the virtual machine emulated on that machine is generally referred as the "Guest Machine".
 
-![Virtual Machine Architecture](images/virtual%20machine.png)
+![Virtual Machine Architecture](images/virtual-machine.png)
 
