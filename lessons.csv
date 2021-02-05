@@ -1,2 +1,5 @@
 path,title,order,section,description
-"/intro","Introduction",1,"Welcome","Topic Introduction"
+"/intro","Introduction",1,"Welcome","Workshop Introduction"
+"/virtualization","History of Virtualization",2,"Overview","History of Virtualization"
+"/containers","Containers",3,"Overview","Introduction to containers"
+"/docker","Docker",4,"Overview","Introduction to Docker"
