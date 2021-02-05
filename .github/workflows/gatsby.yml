@@ -15,8 +15,7 @@ jobs:
           npm install
           npm run build
       - name: Deploy site to gh-pages branch
-      - uses: actions/checkout@v1
-      - uses: enriikke/gatsby-gh-pages-action@v2
+        uses: alex-page/blazing-fast-gh-pages-deploy@v1.1.0
         with:
           repo-token: ${{ secrets.ACCESS_TOKEN }}
           site-directory: public
