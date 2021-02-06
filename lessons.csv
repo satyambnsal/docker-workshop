@@ -1,8 +1,9 @@
 path,title,order,section,description
 "/intro","Introduction",1,"Welcome","Workshop Introduction"
-"/docker-ecosystem","Docker Ecosystem",1,"Working with Docker","Docker ecosysetm and building blocks"
-"/create-docker-image","How to Create Docker Image",2,"Working with Docker",
-"/docker-ecosystem","Docker Ecosystem",2,"Working with Docker","Docker Hands On"
-"/virtualization","History of Virtualization",2,"Overview","History of Virtualization"
-"/containers","Containers",3,"Overview","Introduction to containers"
-"/docker","Docker",4,"Overview","Introduction to Docker"
+"/virtualization","History of Virtualization",2.1,"Overview","History of Virtualization"
+"/containers","Containers",2.2,"Overview","Introduction to containers"
+"/docker","Docker",2.3,"Overview","Introduction to Docker"
+"/docker-ecosystem","Docker Ecosystem",3.1,"Working with Docker","Docker ecosysetm and building blocks"
+"/docker-handson","Docker Handson",3.2,"Working with Docker","Docker Hands On"
+"/create-docker-image","How to Create Docker Image",3.3,"Working with Docker",
+"/docker-cheatsheet","Docker Cheatsheet",4,"Docker Cheatsheet",
