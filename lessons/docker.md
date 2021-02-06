@@ -1,7 +1,7 @@
 ---
 path: '/docker'
 title: 'Docker'
-order: 4.0
+order: 2.3
 section: "Overview"
 description: "Introduction to Docker"
 ---

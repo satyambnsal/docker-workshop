@@ -39,7 +39,7 @@ trying things along with the workshop can also take a lot of bandwidth because w
 
 ## Who Am I ?
 
-My name is Satyam Bansal and I'm a Instructor at (Pesto.tech) [https://pesto.tech/become-a-developer]. I help people become beter software developer. previous to that I was working with Disney + Hotstar as a Front-end developer.
+My name is Satyam Bansal and I'm a Instructor at [Pesto.tech](https://pesto.tech/become-a-developer). I help people become beter software developer. Previous to that I was working with Disney + Hotstar as a Front-end developer.
 
 catch up with me on Social Media, I would love to hear your stories
 - [twitter](https://twitter.com/satyambnsal)

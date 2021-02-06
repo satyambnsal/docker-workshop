@@ -1,7 +1,7 @@
 ---
 path: '/create-docker-image'
 title: 'How to Create Docker Image'
-order: 2.0
+order: 3.3
 section: "Working with Docker"
 description: ""
 ---
@@ -15,7 +15,7 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./
 
-RUN npm install
+RUN yarn install
 
 COPY . .
 
@@ -23,4 +23,10 @@ EXPOSE 3000
 
 CMD ["node", "src/index.js"]
 
+```
+
+
+Build the container image using the `docker build` command
+```
+docker build -t satyambnsal/todoapp:1.0.0 .
 ```

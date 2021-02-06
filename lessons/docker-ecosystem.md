@@ -1,7 +1,7 @@
 ---
 path: '/docker-ecosystem'
 title: 'Docker Ecosystem'
-order: 1.0
+order: 3.1
 section: "Working with Docker"
 description: "Docker ecosysetm and building blocks"
 ---
@@ -48,6 +48,7 @@ A docker container wraps an application's software into an invisible box with ev
 
 ### Volumes
 
-Volumes are the "data" part of the container, initialized when a container is created. Volumes allow you to persist and share a container's data. Data volumes are separate from the default Union File System and exist as normal directories and files on the host filesystem.
+Volumes are the **"data"** part of the container, initialized when a container is created. Volumes allow you to persist and share a container's data. Data volumes are separate from the default Union File System and exist as normal directories and files on the host filesystem.
 
+We will see the power of volumes with real examples.
 

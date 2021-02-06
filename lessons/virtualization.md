@@ -1,13 +1,13 @@
 ---
 path: '/virtualization'
 title: 'History of Virtualization'
-order: 2.0
+order: 2.1
 section: "Overview"
 description: "History of Virtualization"
 ---
 
 
-Let's go back in time to understand how the production system was working in the early days of World Wide Web. Suppose you are a Head of Engineering of a fancy startup called Nest-o 😄, Website that allows you to rent a home in any city in India.
+Let's go back in time to understand how the production system was working in the early days of World Wide Web. Suppose you are a Head of Engineering of a fancy startup called Nest-o 😄 . A Website that allows you to rent a home in any city in India.
  
 Lets see how you would have deployed your site back then. You either purchase a bunch of CPU and Memory and setup the servers on your own **or** you rent the server. you go to Dell or EMC, which at that time provided facility to rent the servers. you go in their server farm, setup a machine, put your code there and run the server. 
 
@@ -42,7 +42,7 @@ A Type 1 Hypervisor acts like a light-weight operating system and runs directly 
 
 A Type 2 Hypervisor runs as a software layer on an operating system, like other computer programs. It is also known as Hosted Hypervisor.
 
-The underlying physical machine is called "Host Machine" and the virtual machine emulated on that machine is generally referred as the "Guest Machine".
+The underlying physical machine is called **"Host Machine"** and the virtual machine emulated on that machine is generally referred as the **"Guest Machine"**.
 
 ![Virtual Machine Architecture](images/virtual-machine.png)
 

@@ -1,7 +1,7 @@
 ---
-path: '/docker-ecosystem'
-title: 'Docker Ecosystem'
-order: 2.0
+path: '/docker-handson'
+title: 'Docker Handson'
+order: 3.2
 section: "Working with Docker"
 description: "Docker Hands On"
 ---
@@ -21,33 +21,40 @@ description: "Docker Hands On"
 
 # Docker Commands
 
-Login to Dockerhub
+1. Login to Dockerhub
+```
+docker login -u <dockerhub-username>
+```
 
-```docker login -u <dockerhub-username>```
+2. Pull NGINX Image from DockerHub
+```
+docker pull nginx
+```
 
-Pull NGINX Image from DockerHub
+3. Run NGINX Server 
+```
+docker container run --name nginx-server --publish 80:80 nginx
+```
 
-```docker pull nginx```
+4. Run NGINX Server in Detached Mode
+```
+docker container run --name nginx-server --publish 80:80 --detach nginx
+```
 
-Run NGINX Server 
+5. See NGINX Server Logs
+```
+docker container logs nginx-server
+```
 
-```docker container run --name nginx-server --publish 80:80 nginx```
+6. See NGINX Server Live Logs 
+```
+docker container logs nginx-server --follow
+```
 
-Run NGINX Server in Detached Mode
-
-```docker container run --name nginx-server --publish 80:80 --detach nginx```
-
-See NGINX Server Logs
-
-```docker container logs nginx-server```
-
-
-See NGINX Server Live Logs 
-```docker container logs nginx-server --follow```
-
-Get Inside **nginx-server** container
-
-```docker container exec -it nginx-server```
+7. Get Inside **nginx-server** container
+```
+docker container exec -it nginx-server
+```
 
 
 **NOTE: Container only runs as longs as the command at the startup runs**

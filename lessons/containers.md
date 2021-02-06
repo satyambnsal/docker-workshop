@@ -1,7 +1,7 @@
 ---
 path: '/containers'
 title: 'Containers'
-order: 3.0
+order: 2.2
 section: "Overview"
 description: "Introduction to containers"
 ---
@@ -17,5 +17,5 @@ For all intent and purposes, containers look like a VM. They have private space 
 
 The one big difference between containers and VMs is that containers **share** the host system's kernel with other containers.
 
-As you can see from the diagram, there is no hypervisor, so no hardware virtualization. The only parts that are created from scratch is bins and libs. This is what makes containers so lightweight. .and Awesome 😄.
+As you can see from the diagram, there is no hypervisor, so no hardware virtualization. The only parts that are created from scratch is bins and libs. This is what makes containers so lightweight and Awesome 😄
 
