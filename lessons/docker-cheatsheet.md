@@ -53,5 +53,52 @@ docker tag satyambnsal/todoapp:1.0.0 satyambnsal/mynewtodo:2.0.0
       ```
    docker container run --publish 3001:80 --name nginx-server1 nginx
    ```
+3. Get Inside a running container
+   ```
+   docker container exec -it nginx-server1
+   ```
 
 
+## Docker Volume
+1. Create Docker volume
+```
+docker volume create <volume-name>
+```
+2. Inspect docker volume
+```
+docker volume inspect <volume-name|id>
+```
+
+3. Attach a volume to todoapp container
+```
+docker container run --detach --publish 3006:3000 -v todoappdb:/etc/todos satyambnsal/todoapp:1.0.1
+```
+
+## Docker Bind Mount
+Mount current directory on host machine to NGINX server
+```
+docker container run -d --name nginx-dev-server -p 80:80 -v $(pwd):/usr/share/nginx/html nginx
+```
+
+
+## See container logs and properties
+1. See container logs
+```
+docker container logs <container-name|container-id>
+```
+2. See container logs in live mode
+```
+docker container logs <container-name|container-id> --follow
+```
+3. See container config
+```
+docker container inspect <container-name|container-id>
+```
+4. See performance stats for all containers
+```
+docker container stats
+```
+5. See list of process running inside a container
+```
+docker container top <container-name|container-id>
+```
