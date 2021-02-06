@@ -102,3 +102,9 @@ docker container stats
 ```
 docker container top <container-name|container-id>
 ```
+
+## Use Environment variables
+Run MySQL server 
+```
+docker container run --name mysql-server -d -p 3306:3306 -e MYSQL_RANDOM_ROOT_PASSWORD=yes mysql/mysql-server
+```
